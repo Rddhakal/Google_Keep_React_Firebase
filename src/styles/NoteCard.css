@@ -1,0 +1,53 @@
+.note_card {
+    min-height: 120px;
+    width: 240px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(234, 234, 234);
+    cursor: pointer;
+    transition: .5s ease;
+    margin: 15px 15px 0 15px;
+    position: relative;
+}
+
+.note_card .note_card_text {
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.note_card_text .title_text {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.note_card_bottom {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid rgb(234, 234, 234);
+}
+
+.note_card_bottom button {
+    pointer-events: none;
+    transition: .5s ease;
+}
+
+.note_card_bottom svg {
+    font-size: 18px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.note_card:hover .note_card_bottom svg, button {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.note_card:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

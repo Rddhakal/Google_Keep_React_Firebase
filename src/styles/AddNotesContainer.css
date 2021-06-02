@@ -1,0 +1,55 @@
+.add_notes_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add_notes_container .input_container {
+    width: 50%;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(234, 234, 234);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.input_container input, textarea {
+    width: 100% !important;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 16px;
+    resize: none;
+}
+
+.input_container .input_bottom {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.input_bottom .left {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+.input_bottom svg {
+    font-size: 20px;
+}
+
+.input_bottom .add_btn {
+    background: #0984e3;
+    color: white;
+}
+
+.add_btn svg {
+    font-size: 25px;
+}
+
+.add_btn:hover {
+    background: #257abb !important;
+}

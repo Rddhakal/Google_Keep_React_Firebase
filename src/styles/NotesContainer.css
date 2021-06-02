@@ -1,0 +1,12 @@
+.notes_container {
+    width: 80%;
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+}
+
+.notes_container .notes_card {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}

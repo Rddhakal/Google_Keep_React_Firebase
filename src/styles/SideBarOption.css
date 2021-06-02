@@ -1,0 +1,32 @@
+.sidebar_option {
+    width: 100%;
+    padding: 13px 25px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_option:nth-child(1) {
+    background: #feefc3;
+}
+
+.sidebar_option:nth-child(1):hover {
+    background: #feefc3;
+}
+
+.sidebar_option svg {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.sidebar_option p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar_option:hover {
+    background: #f1f3f4;
+}
